@@ -15,6 +15,7 @@ export class LoginComponent{
 
      async fazerLogin() {
         const url = await this.serviceSpotify.obterUrlLogin();
+        console.log(url)
     }
     
     anoAtual = new Date().getFullYear();
